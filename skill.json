@@ -1,0 +1,100 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "radios de españa",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "selectRadio",
+          "samples": [
+            "{station}",
+            "radio {station}",
+            "cadena {station}",
+            "emisora {station}",
+            "la radio {station}",
+            "la cadena {station}",
+            "la emisora {station}",
+            "{station} radio",
+            "la {station}",
+            "ponme radio {station}",
+            "ponme cadena {station}",
+            "ponme emisora {station}",
+            "ponme la {station}",
+            "ponme {station} radio",
+            "pon radio {station}",
+            "pon cadena {station}",
+            "pon emisora {station}",
+            "pon la {station}",
+            "pon {station} radio",
+            "quiero radio {station}",
+            "quiero cadena {station}",
+            "quiero emisora {station}",
+            "quiero la {station}",
+            "quiero {station} radio",
+            "reproduce radio {station}",
+            "reproduce cadena {station}",
+            "reproduce emisora {station}",
+            "reproduce la {station}",
+            "reproduce {station} radio"
+          ],
+          "slots": [
+            {
+              "name": "station",
+              "type": "LIST_OF_STATIONS"
+            }
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_STATIONS",
+          "values": [
+            {"name":{"value":"esradio"}},
+            {"name":{"value":"es radio"}},
+            {"name":{"value":"libertad digital"}},
+            {"name":{"value":"cope"}},
+            {"name":{"value":"ser"}},
+            {"name":{"value":"onda cero"}},
+            {"name":{"value":"marca"}},
+            {"name":{"value":"eme 80"}},
+            {"name":{"value":"m80"}},
+            {"name":{"value":"kiss f.m"}},
+            {"name":{"value":"los 40"}},
+            {"name":{"value":"los 40 principales"}},
+            {"name":{"value":"cadena dial"}},
+            {"name":{"value":"rock f.m"}},
+            {"name":{"value":"100"}},
+            {"name":{"value":"cien"}},
+            {"name":{"value":"radio nacional"}},
+            {"name":{"value":"radio 5"}},
+            {"name":{"value":"radio cinco"}},
+            {"name":{"value":"radio clásica"}},
+            {"name":{"value":"radio nacional clásica"}},
+            {"name":{"value":"radio 3"}},
+            {"name":{"value":"radio tres"}},
+            {"name":{"value":"error"}}
+          ]
+        }
+      ]
+    }
+  }
+}
